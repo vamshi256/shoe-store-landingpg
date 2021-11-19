@@ -1,0 +1,11 @@
+const incrementbtn= document.getElementById('increment')
+// need to attach aevent listener
+let counter=0
+
+function incrementer(){
+    const counterel = document.getElementById('counter')
+    counter++
+    counterel.innerText = counter
+}
+
+incrementbtn.addEventListener('click',incrementer)

@@ -1,0 +1,82 @@
+body{
+    position: relative;
+}
+
+.navbar{
+    background-color: rgb(255, 255, 255);
+    display: block;
+    width: 100%;
+    height: 30px;
+}
+
+.pagelinks {
+    float: right;
+}  
+#link{
+    padding: 10px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+    color: rgb(33,148,232);
+}
+#icons{
+    width: 25px;
+    height: 20px;
+}
+.block1{
+     background-image: url("Desktop - 1.png");
+     width: 100%;   
+     height: 650px;
+}
+#buy{
+    position:sticky;
+    border-radius: 17px;
+    border: none;
+    margin-top:510px;
+    margin-left: 70px;
+    width: 160px;
+    height: 50px;
+    font-size:20px;
+    background-color: rgb(255, 255, 255);
+}
+
+#buy:hover{
+    background-color:rgb(143, 223, 255);
+}
+
+.block2{
+    height: 500px;
+    background-color: rgba(243, 241, 241, 0.952);
+    padding-top: 10px;
+}
+.block2.h2{
+       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+       font-size: 10px;
+}
+
+.block3{
+    height: 300px;
+    background-color: rgb(93, 137, 167);    
+}
+
+.b2card{
+    background-color: rgb(255, 255, 255);
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin-left: 125px;
+    margin-top: 45px;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.b3lists{
+    width: 200px;
+    float: left;
+    margin-left: 50px;
+    margin-top: 45px;
+    
+}
+
+.b3elmnts{
+    padding: 20px;
+}
