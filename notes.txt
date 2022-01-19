@@ -1,11 +1,7 @@
-const incrementbtn= document.getElementById('increment')
-// need to attach aevent listener
-let counter=0
+to run the page use "vs code"
+step 1:download the project
+step 2:open lndpg.html
+step 3: run it
 
-function incrementer(){
-    const counterel = document.getElementById('counter')
-    counter++
-    counterel.innerText = counter
-}
+"if imgs are not visible then check the paths"
 
-incrementbtn.addEventListener('click',incrementer)
